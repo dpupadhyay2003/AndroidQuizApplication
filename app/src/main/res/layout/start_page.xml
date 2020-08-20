@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#300961" android:id="@+id/startPage">
+
+    <ImageView
+        android:id="@+id/QuizImage"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/thumbnail_height"
+        android:src="@drawable/quiz_start_page"
+        />
+
+    <TextView
+        android:layout_below="@+id/QuizImage"
+        android:id="@+id/welcomeLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:background="#FFFDFD"
+        android:backgroundTint="#300961"
+        android:paddingLeft="110dp"
+        android:text="@string/welcome_to"
+        android:textColor="#fcfafc"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/webDevelopementLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFDFD"
+        android:paddingLeft="75dp"
+        android:layout_marginTop="20sp"
+        android:text="@string/web_developement"
+        android:textSize="32sp"
+        android:backgroundTint="#300961"
+        android:textColor="#fcfafc"
+        android:layout_below="@id/welcomeLabel"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/QuizLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFDFD"
+        android:paddingLeft="175dp"
+        android:layout_marginTop="20sp"
+        android:text="@string/quiz"
+        android:textSize="32sp"
+        android:backgroundTint="#300961"
+        android:textColor="#fcfafc"
+        android:layout_below="@id/webDevelopementLabel"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startLabel"
+        android:textStyle="bold"
+        android:layout_below="@id/QuizLabel"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="160sp"
+        />
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ExitLabel"
+        android:textStyle="bold"
+        android:layout_below="@id/startButton"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="160sp"
+        />
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/resultmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Passed"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCORE"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/resultmessage"
+        />
+
+    <TextView
+        android:id="@+id/actualscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textSize="50sp"
+        android:layout_below="@id/scoreLabel"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100sp"
+        />
+
+    <TextView
+        android:id="@+id/outOfscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" out of 5"
+        android:textSize="50sp"
+        android:layout_below="@id/scoreLabel"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/actualscore"
+        />
+
+
+    <Button
+        android:id="@+id/mainMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:textSize="30sp"
+        android:layout_below="@id/actualscore"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

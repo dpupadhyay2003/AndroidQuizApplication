@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/failmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Failed, Do you Want to Try Again ?"
+        android:textSize="40sp"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCORE"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/failmessage"
+        />
+
+    <TextView
+        android:id="@+id/actualscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textSize="50sp"
+        android:layout_below="@id/scoreLabel"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100sp"
+        />
+
+    <TextView
+        android:id="@+id/outOfscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" out of 5"
+        android:textSize="50sp"
+        android:layout_below="@id/scoreLabel"
+        android:layout_marginTop="50dp"
+android:layout_toRightOf="@id/actualscore"
+        />
+
+
+    <Button
+        android:id="@+id/tryAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try Again "
+        android:textSize="30sp"
+        android:layout_below="@id/actualscore"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:textSize="30sp"
+        android:layout_below="@id/tryAgain"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

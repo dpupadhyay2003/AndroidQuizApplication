@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        >
+
+        <TextView
+            android:id="@+id/question_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/imageQuestion"
+            android:textSize="35sp"/>
+
+        <ImageView
+            android:id="@+id/express"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/expressjs"
+            android:layout_marginTop="20sp"
+            />
+
+        <ImageView
+            android:id="@+id/jquery"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/jquery"
+            android:layout_marginTop="20sp"
+            />
+
+        <ImageView
+            android:id="@+id/reactjs"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/reactjs"
+            android:layout_marginTop="20sp"
+            />
+
+        <ImageView
+            android:id="@+id/vuejs"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/vuejs"
+            android:layout_marginTop="20sp"
+            />
+
+
+        <Button
+            android:id="@+id/nextButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/NextLabel" />
+
+    </LinearLayout>
+
+</FrameLayout>
